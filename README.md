@@ -1,2 +1,0 @@
-# WeddingCro
-Wedding Croatia
