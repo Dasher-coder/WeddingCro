@@ -253,10 +253,10 @@ window.onload = function() {
         const distance = weddingDate - now;
 
         if (distance < 0) {
-            document.getElementById("days").innerHTML = "0";
-            document.getElementById("hours").innerHTML = "0";
-            document.getElementById("minutes").innerHTML = "0";
-            document.getElementById("seconds").innerHTML = "0";
+            document.getElementById("Dagar").innerHTML = "0";
+            document.getElementById("Timmar").innerHTML = "0";
+            document.getElementById("Minuter").innerHTML = "0";
+            document.getElementById("Sekunder").innerHTML = "0";
             return;
         }
 
@@ -277,10 +277,10 @@ window.onload = function() {
             / 1000
         );
 
-        document.getElementById("days").innerHTML = days;
-        document.getElementById("hours").innerHTML = hours;
-        document.getElementById("minutes").innerHTML = minutes;
-        document.getElementById("seconds").innerHTML = seconds;
+        document.getElementById("Dagar").innerHTML = days;
+        document.getElementById("Timmar").innerHTML = hours;
+        document.getElementById("Minuter").innerHTML = minutes;
+        document.getElementById("Sekunder").innerHTML = seconds;
     }
 
     updateCountdown();
