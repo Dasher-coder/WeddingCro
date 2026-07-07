@@ -293,87 +293,69 @@ window.onload = function() {
     <!--? Contact form Start -->
 
     <form action="https://formsubmit.co/darko.lovrinovic@hotmail.com" method="POST">
-    
-    <div class="contact-form section-padding30 fix">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-6 col-lg-6">
-                    <div class="form-wrapper">
-                        
-                        
 
-                            
-                            <!-- section tittle -->
-                            <div class="row ">
-                                <div class="col-lg-12">
-                                    <div class="section-tittle tittle-form text-center mb-30">
-                                        <h2>O.S.A senast 15 Mars 2027</h2>
-                                        <img src="assets/img/gallery/tittle_img2.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-box mb-30">
-                                        <input type="text" name="name" placeholder="Namn">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="form-box subject-icon mb-30">
-                                        <input type="email" name="email" placeholder="Email">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 mb-30">
-                                    <div class="select-itms">
-                                        <select name="Vuxna" id="select2">
-                                            <option value="">1 Vuxna</option>
-                                            <option value="">2 Vuxna</option>
-                                            <option value="">3 Vuxna</option>
-                                            <option value="">4 Vuxna</option>
-                                            <option value="">5 Vuxna</option>
-                                            <option value="">6 Vuxna</option>
-                                            <option value="">7 Vuxna</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 mb-30">
-                                    <div class="select-itms">
-                                        <select name="Barn" id="select2">
-                                            <option value="">1 Barn</option>
-                                            <option value="">2 Barn</option>
-                                            <option value="">3 Barn</option>
-                                            <option value="">4 Barn</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="form-box message-icon mb-30">
-                                        <textarea name="message" id="message" placeholder="Önskemål av låt, kontaktperson, annan användbar information."></textarea>
-                                    </div>
-                                    
-                              <div class="submit-info" style="display:flex; justify-content:center;">
-    <button class="btn" type="submit">Bekräfta</button>
-</div>
-                                    
-                                </div>
-                            </div>
-                        
-                        <!-- Shape inner Flower -->
-                        <div class="shape-inner-flower">
-                            <img src="assets/img/gallery/shape2.png" class="shpe2" alt="">
-                        </div>
-                        <!-- Shape outer Flower -->
-                        <div class="shape-outer-flower">
-                            <img src="assets/img/flower/from-top.png" class="outer-top" alt="">
-                            <img src="assets/img/flower/from-bottom.png" class="outer-bottom" alt="">
-                        </div>
-                    </div>
-                </div>
+    <input type="hidden" name="_subject" value="Ny OSA-anmälan">
+    <input type="hidden" name="_captcha" value="false">
+
+    <div class="row">
+
+        <div class="col-lg-12">
+            <div class="form-box mb-30">
+                <input type="text" name="contact_person" placeholder="Kontaktperson">
             </div>
         </div>
+
+        <div class="col-lg-12">
+            <div class="form-box subject-icon mb-30">
+                <input type="email" name="email" placeholder="Email">
+            </div>
+        </div>
+
+        <div class="col-lg-12">
+            <div class="form-box mb-30">
+                <input type="text" name="phone" placeholder="Telefonnummer">
+            </div>
+        </div>
+
+        <div class="col-lg-12 mb-30">
+            <div class="select-itms">
+                <select name="guest_count">
+                    <option>1 Vuxen</option>
+                    <option>2 Vuxna</option>
+                    <option>3 Vuxna</option>
+                    <option>4 Vuxna</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="col-lg-12">
+            <div class="form-box mb-30">
+                <input type="text" name="children" placeholder="Antal barn">
+            </div>
+        </div>
+
+        <div class="col-lg-12">
+            <div class="form-box mb-30">
+                <input type="text" name="song_request" placeholder="Val av låt">
+            </div>
+        </div>
+
+        <div class="col-lg-12">
+            <div class="form-box message-icon mb-30">
+                <textarea name="message" placeholder="Allergier, önskemål, övrig information"></textarea>
+            </div>
+        </div>
+
+        <div class="col-lg-12">
+            <div class="submit-info text-center">
+                <button class="btn" type="submit">Bekräfta O.S.A</button>
+            </div>
+        </div>
+
     </div>
 
-        </form>
+</form>
+
     <!-- Contact form End -->
     
 
