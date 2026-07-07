@@ -238,6 +238,8 @@
         </div>
     </div>
     <!-- Count Down End -->
+
+    <script>2const weddingDate = new Date("June 11, 2027 00:00:00").getTime();3 4setInterval(function () {5 6    const now = new Date().getTime();7    const distance = weddingDate - now;8 9    const days = Math.floor(distance / (1000 * 60 * 60 * 24));10    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));11    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));12    const seconds = Math.floor((distance % (1000 * 60)) / 1000);13 14    document.getElementById("days").innerHTML = days;15    document.getElementById("hours").innerHTML = hours;16    document.getElementById("minutes").innerHTML = minutes;17    document.getElementById("seconds").innerHTML = seconds;18 19}, 1000);20</script>
     
     
     <!--? Contact form Start -->
