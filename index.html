@@ -257,9 +257,12 @@ window.onload = function() {
 
         if (distance < 0) {
             document.getElementById("Dagar").innerHTML = "0";
+
+            <!--
             document.getElementById("Timmar").innerHTML = "0";
             document.getElementById("Minuter").innerHTML = "0";
             document.getElementById("Sekunder").innerHTML = "0";
+            -->
             return;
         }
 
@@ -281,9 +284,11 @@ window.onload = function() {
         );
 
         document.getElementById("Dagar").innerHTML = days;
+        <!--
         document.getElementById("Timmar").innerHTML = hours;
         document.getElementById("Minuter").innerHTML = minutes;
         document.getElementById("Sekunder").innerHTML = seconds;
+        -->
     }
 
     updateCountdown();
